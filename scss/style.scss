@@ -1,0 +1,45 @@
+@import "./variables";
+
+/*ENCABEZADO PRINCIPAL*/
+.encabezadoPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: $colorPrincipal;
+}
+
+.btn {
+    background-color: $colorPrincipal;
+    border-color: $colorPrincipal;
+
+}
+
+.btn:hover {
+    background-color: $colorSecundario;
+    border-color: $colorSecundario;
+}
+
+
+/*CARRUSEL INICIO*/
+.carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+.pieDePagina {
+    background-color: $colorSecundario;
+
+}

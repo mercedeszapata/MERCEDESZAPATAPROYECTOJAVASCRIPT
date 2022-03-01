@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*ENCABEZADO PRINCIPAL*/
+.encabezadoPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.img-fluid {
+  max-width: 70%;
+  height: auto; }
+
+/*BARRA DE NAVEGACIÓN*/
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #385b7a; }
+
+.btn {
+  background-color: #385b7a;
+  border-color: #385b7a; }
+
+.btn:hover {
+  background-color: #ccd6bd;
+  border-color: #ccd6bd; }
+
+/*CARRUSEL INICIO*/
+.carrusel {
+  display: flex;
+  justify-content: center; }
+
+/*FOOTER*/
+.pieDePagina {
+  background-color: #ccd6bd; }
